@@ -14,7 +14,8 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-        - image: [replace with your ACR name].azurecr.io/storeimage:v1
+        - image: acseshop3329438350.azurecr.io/storeimage:v1
+          imagePullPolicy: Always
           name: storeimage
           resources:
             requests:
@@ -62,7 +63,8 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-        - image: [replace with your ACR name].azurecr.io/productservice:v1
+        - image: acseshop3329438350.azurecr.io/productservice:v1
+          imagePullPolicy: Always
           name: productservice
           resources:
             requests:
