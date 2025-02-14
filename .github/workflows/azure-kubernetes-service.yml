@@ -8,7 +8,7 @@ on:
 env:
   # Local environment variables used later in the workflow
   AZURE_CONTAINER_REGISTRY: 'acseshop3329438350'
-  CONTAINER_NAME: 'product-service'
+  CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop'
   CLUSTER_NAME: 'aks-eshop'
   DEPLOYMENT_MANIFEST_PATH: './product.yml'
